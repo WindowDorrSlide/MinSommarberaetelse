@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image: url("/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+main {
+
+	height: 80%;
+	width: 50%;
+
+	padding: 1rem;
+
+	text-align: center;
+	background-color: white;
+	border-radius: 40px;
+	box-shadow: 10px 10px 20px rgb(0, 0, 0, 0.5);
+}
+
+@media (max-width: 999px) {
+	main {
+		width: 95%;
+		height: 90%;
+	}
+}
+
+main>*:not(:last-child) {
+	margin-bottom: 1.5rem;
+
+}
+
+main p {
+	font-size: 1.5em;
+}
+
+img {
+	height: 12rem;
+}
+
+form {
+	text-align: start;
+	line-height: 2em;
+	font-size: 1.2em;
+}
+
+
+form input {
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 1em;
+}
+
+form input:focus {
+	outline: none;
+	border-color: blue;
+}
