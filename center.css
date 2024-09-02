@@ -1,0 +1,71 @@
+body {
+	font-size: 1.2rem;
+	font-family: sans-serif;
+
+}
+
+h1,
+h2,
+p {
+	max-width: 80ch;
+}
+
+.container {
+	max-width: 56rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.container img {
+	width: 100%;
+}
+
+.hero {
+	position: relative;
+	background-color: blueviolet;
+	height: 50vh;
+
+	h1 {
+		font-size: 5rem;
+		color: white;
+	}
+
+	padding-top: 3rem;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1rem;
+
+	ul {
+		padding: 0;
+		list-style: none;
+		display: flex;
+		gap: 1rem;
+		font-weight: 500;
+		font-size: 1.4rem;
+		text-transform: uppercase;
+
+		a {
+			text-decoration: none;
+			border-radius: 10px;
+			border: solid 3px black;
+			padding: 1ch;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+.cta {
+	display: block;
+	color: white;
+	font-size: 2rem;
+}
